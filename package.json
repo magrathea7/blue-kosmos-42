@@ -1,0 +1,34 @@
+{
+  "name": "blue-kosmos-42",
+  "version": "0.1.0",
+  "description": "blue test yard",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magrathea7/blue-kosmos-42.git"
+  },
+  "keywords": [
+    "blue",
+    "kosmos",
+    "42"
+  ],
+  "author": "Ralf Kehl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magrathea7/blue-kosmos-42/issues"
+  },
+  "homepage": "https://github.com/magrathea7/blue-kosmos-42#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.6.0",
+    "nodemon": "^1.19.2"
+  }
+}
